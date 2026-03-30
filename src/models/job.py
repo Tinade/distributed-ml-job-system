@@ -58,3 +58,4 @@ class Job:
             return False
 
         return (time.time() - self.last_heartbeat) > timeout
+
